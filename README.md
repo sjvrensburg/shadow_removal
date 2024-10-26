@@ -17,7 +17,11 @@ Unfortunately, the authors of the [GCDRNet model](https://github.com/ZZZHANG-jx/
 ## Installation
 
 ```bash
-pip install shadow-removal
+# Using pip
+pip install git+https://github.com/sjvrensburg/shadow_removal.git
+
+# To add the library to a Poetry project
+poetry add git+https://github.com/sjvrensburg/shadow_removal.git
 ```
 
 ## Usage
@@ -46,10 +50,3 @@ pipeline.process_image("input.jpg", "output.jpg")
 # Process a directory
 pipeline.process_directory("input_dir", "output_dir")
 ```
-
-## Development
-
-1. Clone the repository
-2. Install poetry: `pip install poetry`
-3. Install dependencies: `poetry install`
-4. Run tests: `poetry run pytest`
