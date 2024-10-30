@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "shadow-removal"
-version = "0.1.0"
+version = "0.1.1"
 description = "A deep learning based shadow removal pipeline"
 authors = ["Stefan Janse van Rensburg <stefanj@mandela.ac.za>"]
 readme = "README.md"
